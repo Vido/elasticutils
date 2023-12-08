@@ -6,7 +6,7 @@ import six
 from six import string_types
 
 from elasticsearch import Elasticsearch
-from elasticsearch.helpers import bulk_index
+from elasticsearch.helpers import bulk as bulk_index
 
 from elasticutils._version import __version__  # noqa
 from elasticutils import monkeypatch
