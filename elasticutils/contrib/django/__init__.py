@@ -2,7 +2,7 @@ import six
 import logging
 from functools import wraps
 
-import elasticsearch
+from elasticsearch2 import ElasticsearchException
 
 from django.conf import settings
 from django.shortcuts import render
@@ -19,7 +19,7 @@ log = logging.getLogger('elasticutils')
 
 
 ES_EXCEPTIONS = (
-    elasticsearch.ElasticsearchException,
+    ElasticsearchException,
 )
 
 

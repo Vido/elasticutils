@@ -1,7 +1,7 @@
 from itertools import islice
 
 
-from elasticsearch.serializer import JSONSerializer
+from elasticsearch2.serializer import JSONSerializer
 
 
 def to_json(data):

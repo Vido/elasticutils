@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from elasticsearch.helpers import bulk_index
+from elasticsearch2.helpers import bulk as bulk_index
 try:
     from nose import SkipTest
 except ImportError:
