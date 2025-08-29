@@ -28,7 +28,7 @@ setup(
     license='BSD',
     packages=find_packages(),
     install_requires=[
-        'elasticsearch>=1.0',
+        'elasticsearch2>=2.5',
         'six'
     ],
     include_package_data=True,
@@ -39,12 +39,9 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Natural Language :: English',
         ],

@@ -9,11 +9,6 @@ from elasticsearch import Elasticsearch
 from elasticsearch.helpers import bulk as bulk_index
 
 from elasticutils._version import __version__  # noqa
-from elasticutils import monkeypatch
-
-
-monkeypatch.monkeypatch_es()
-
 
 log = logging.getLogger('elasticutils')
 
